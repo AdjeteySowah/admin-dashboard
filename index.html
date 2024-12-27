@@ -14,7 +14,7 @@
          <div class="header--top">
             <div>
                <label for="search"><img src="./assets/imgs/search.svg" alt="search icon"></label>
-               <input type="search" id="search" name="search" placeholder="search...">
+               <input type="search" id="search" name="search">
             </div>
             <div>
                <img src="./assets/imgs/notification.svg" alt="notification bell">
@@ -23,15 +23,15 @@
             </div>
          </div>
          <div class="header--bottom">
-            <div class="header--bottom--greeting">
+            <div>
                <img src="./assets/imgs/dog.png" alt="a quiet dog">
-               <h2>Hi there,<span class="wrap">Doglas Shark (@doglas)</span></h2>
+               <h2>Hi there,<span class="full-width">Doglas Shark (@doglas)</span></h2>
             </div>
             <div>
                <ul>
-                  <li>New</li>
-                  <li>Upload</li>
-                  <li>Share</li>
+                  <li><a href="./index.html">New</a></li>
+                  <li><a href="./index.html">Upload</a></li>
+                  <li><a href="./index.html">Share</a></li>
                </ul>
             </div>
          </div>
@@ -42,28 +42,28 @@
             <h1><img src="./assets/imgs/dashboard.svg" alt="dashboard icon">Dashboard</h1>
          </div>
          <ul class="sidebar--middle">
-            <li><img src="./assets/imgs/home.svg" alt="home icon">Home</li>
-            <li><img src="./assets/imgs/profile.svg" alt="account profile icon">Profile</li>
-            <li><img src="./assets/imgs/messages.svg" alt="messages icon">Messages</li>
-            <li><img src="./assets/imgs/history.svg" alt="history icon">History</li>
-            <li><img src="./assets/imgs/tasks.svg" alt="file documents icon">Tasks</li>
-            <li><img src="./assets/imgs/communities.svg" alt="an icon representing a community/forum">Communities</li>
+            <li><img src="./assets/imgs/home.svg" alt="home icon"><a href="./index.html">Home</a></li>
+            <li><img src="./assets/imgs/profile.svg" alt="account profile icon"><a href="./index.html">Profile</a></li>
+            <li><img src="./assets/imgs/messages.svg" alt="messages icon"><a href="./index.html">Messages</a></li>
+            <li><img src="./assets/imgs/history.svg" alt="history icon"><a href="./index.html">History</a></li>
+            <li><img src="./assets/imgs/tasks.svg" alt="file documents icon"><a href="./index.html">Tasks</a></li>
+            <li><img src="./assets/imgs/communities.svg" alt="an icon representing a community/forum"><a href="./index.html">Communities</a></li>
          </ul>
          <ul class="sidebar--bottom">
-            <li><img src="./assets/imgs/settings.svg" alt="settings/cog icon">Settings</li>
-            <li><img src="./assets/imgs/support.svg" alt="an icon representing support/help">Support</li>
-            <li><img src="./assets/imgs/privacy.svg" alt="a shield icon">Privacy</li>
+            <li><img src="./assets/imgs/settings.svg" alt="settings/cog icon"><a href="./index.html">Settings</a></li>
+            <li><img src="./assets/imgs/support.svg" alt="an icon representing support/help"><a href="./index.html">Support</a></li>
+            <li><img src="./assets/imgs/privacy.svg" alt="a shield icon"><a href="./index.html">Privacy</a></li>
          </ul>
       </aside>
 
       <main class="dashboard__main">
          <div class="main__project">
-            <h3>Your Projects</h3>
+            <h3 class="project-title">Your Projects</h3>
             <div class="projects">
-               <div class="project__card">
+               <div class="project-card">
                   <p class="card-title">Super Cool Project</p>
                   <p class="card-content">
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim. Numquam ad explicabo eaque illo nostrum molestias repellat aut? Temporibus ratione sit sequi quod, ducimus ab hic dolorum id consequatur.
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, enim. Numquam ad explicabo eaque illo nostrum molestias repellat aut? Temporibus ratione
                   </p>
                   <p class="card-icons">
                      <img src="./assets/imgs/star-plus.svg" alt="add stars icon">
@@ -71,10 +71,10 @@
                      <img src="./assets/imgs/fork.svg" alt="fork icon">
                   </p>
                </div>
-               <div class="project__card">
+               <div class="project-card">
                   <p class="card-title">Less Cool Project</p>
                   <p class="card-content">
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure obcaecati vero porro repellendus nobis sunt, nulla assumenda, deserunt, consectetur odio adipisci ut. Aliquam quam magni est. Explicabo facilis ducimus vero?
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure obcaecati vero porro repellendus nobis sunt, nulla assumenda, deserunt, consectetur odio adipisci ut.
                   </p>
                   <p class="card-icons">
                      <img src="./assets/imgs/star-plus.svg" alt="add stars icon">
@@ -82,10 +82,10 @@
                      <img src="./assets/imgs/fork.svg" alt="fork icon">
                   </p>
                </div>
-               <div class="project__card">
+               <div class="project-card">
                   <p class="card-title">Impossible App</p>
                   <p class="card-content">
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, delectus. Voluptates dolore, deleniti animi architecto nisi quidem! Doloribus, dolorem ea. Necessitatibus facere at possimus voluptatem? Obcaecati blanditiis iste omnis similique.
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, delectus. Voluptates dolore, deleniti animi architecto nisi quidem! Doloribus, dolorem ea.
                   </p>
                   <p class="card-icons">
                      <img src="./assets/imgs/star-plus.svg" alt="add stars icon">
@@ -93,10 +93,10 @@
                      <img src="./assets/imgs/fork.svg" alt="fork icon">
                   </p>
                </div>
-               <div class="project__card">
+               <div class="project-card">
                   <p class="card-title">Easy Peasy App</p>
                   <p class="card-content">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci aliquam voluptatem odit ipsum eligendi quia facere esse repellendus suscipit, vero rerum minima ipsa quasi deleniti perspiciatis! Commodi recusandae officiis placeat.
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci aliquam voluptatem odit ipsum eligendi quia facere esse repellendus suscipit, vero rerum minima ipsa quasi.
                   </p>
                   <p class="card-icons">
                      <img src="./assets/imgs/star-plus.svg" alt="add stars icon">
@@ -104,10 +104,10 @@
                      <img src="./assets/imgs/fork.svg" alt="fork icon">
                   </p>
                </div>
-               <div class="project__card">
+               <div class="project-card">
                   <p class="card-title">Ad blocker</p>
                   <p class="card-content">
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi excepturi eius magnam repudiandae hic sunt cupiditate aliquid, vitae similique eveniet! Rerum ipsa assumenda quia quidem, velit nostrum aliquam ea.
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi excepturi eius magnam repudiandae hic sunt cupiditate aliquid, vitae similique eveniet!
                   </p>
                   <p class="card-icons">
                      <img src="./assets/imgs/star-plus.svg" alt="add stars icon">
@@ -115,10 +115,10 @@
                      <img src="./assets/imgs/fork.svg" alt="fork icon">
                   </p>
                </div>
-               <div class="project__card">
+               <div class="project-card">
                   <p class="card-title">Money Maker</p>
                   <p class="card-content">
-                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, nisi voluptatem. Eveniet velit a cupiditate, quaerat, possimus quo minus temporibus architecto totam deserunt, numquam consectetur dolore expedita neque maxime ipsa.
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, nisi voluptatem. Eveniet velit a cupiditate, quaerat, possimus quo minus temporibus architecto.
                   </p>
                   <p class="card-icons">
                      <img src="./assets/imgs/star-plus.svg" alt="add stars icon">
@@ -128,21 +128,21 @@
                </div>
             </div>
          </div>
-         <div class="main__ann&tre">
+         <div class="main__annTre">
             <div class="announcements">
-               <h3 class="announcements-title">Announcements</h3>
-               <div class="announcements-card">
+               <h3 class="announcement-title">Announcements</h3>
+               <div class="announcement-card">
                   <div>
                      <p>Site Maintenance</p>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quia ullam voluptatibus quaerat.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                   </div>
                   <div>
                      <p>Community Share Day</p>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quia ullam voluptatibus quaerat.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                   </div>
                   <div>
                      <p>Updated Privacy Policy</p>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quia ullam voluptatibus quaerat.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                   </div>
                </div>
             </div>
@@ -150,16 +150,20 @@
                <h3 class="trending-title">Trending</h3>
                <div class="trending-card">
                   <div>
-                     <p><img src="./assets/imgs/parrot.png" alt="a parrot">@parriti<span class="wrap">Super Cool Project</span></p>
+                     <img src="./assets/imgs/parrot.png" alt="a parrot">
+                     <p>@parriti<span class="full-width">Super Cool Project</span></p>
                   </div>
                   <div>
-                     <p><img src="./assets/imgs/dog.png" alt="a quiet dog">@doglas<span class="wrap">World Peace Builder</span></p>
+                     <img src="./assets/imgs/dog.png" alt="a quiet dog">
+                     <p>@doglas<span class="full-width">World Peace Builder</span></p>
                   </div>
                   <div>
-                     <p><img src="./assets/imgs/rabbit.png" alt="a rabbit">@rabbi<span class="wrap">Life Changing App</span></p>
+                     <img src="./assets/imgs/rabbit.png" alt="a rabbit">
+                     <p>@rabbi<span class="full-width">Life Changing App</span></p>
                   </div>
                   <div>
-                     <p><img src="./assets/imgs/cat.png" alt="a cat">@meaw<span class="wrap">No Traffic Maker</span></p>
+                     <img src="./assets/imgs/cat.png" alt="a cat">
+                     <p>@meaw<span class="full-width">No Traffic Maker</span></p>
                   </div>
                </div>
             </div>
