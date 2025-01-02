@@ -14,4 +14,5 @@ It’s a recreation of an [admin dashboard layout design](https://cdn.statically
 - Fonts in woff and woff2 formats - [Font Squirrel](https://www.fontsquirrel.com/)
 ---
 
+Note: It's not responsive. Designed for larger screens.
 [Live website](https://adjeteysowah.github.io/admin-dashboard/)
